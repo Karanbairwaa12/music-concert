@@ -1,0 +1,167 @@
+.navbar {
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    color:#fff;
+    padding:35px 25px 10px 20px;
+}
+
+.container {
+    width:90%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navList {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    position: relative;
+}
+.dropdown-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position:absolute;
+    background: #fff;
+    color:#000;
+    top:30px;
+}
+.listItem {
+    font-size: .8em;
+    /* font-weight: 700; */
+    padding: 10px 5px;
+    cursor: pointer;
+    position: relative;
+}
+.listItem ul {
+    list-style: none;
+    position: absolute;
+    top: 37px;
+    background: #fff;
+    color: #000;
+    min-width: 100px;
+}
+.listItem  img {
+    width:10px;
+    height:10px;
+    position:absolute;
+    bottom: 7px;
+    right:-15px;
+    margin:5px;
+}
+.listItem ul li {
+    text-align: center;
+    padding: 5px;
+}
+.listItem a {
+    text-decoration: none;
+    color:#fff;
+    display: inline-block;
+    font-weight: 700;
+}
+
+button {
+    font-size: 16px;
+    padding: 5px 23px;
+    color: #fff;
+    background: #8002d8;
+    border-radius: 72px;
+    border: none;
+    margin-left: 30px;
+}
+a {
+    text-decoration: none;
+    color:#fff;
+    display: block;
+}
+
+.dropDownItem {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    background: #fff;
+    padding: 10px 0px;
+}
+.Dropitems{
+    font-size: .8em;
+    padding: 10px 30px;
+}
+
+.Dropitems a {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    color: #000;
+}
+/* .navList {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    
+}
+.listItem {
+    font-size: .8em;
+    padding: 10px 5px;
+}
+.listItem a {
+    text-decoration: none;
+    color:#fff;
+    display: inline-block;
+    font-weight: 700;
+} */
+/* .icon {
+    color:#fff;
+}
+.right > div .options {
+    position: absolute;
+    top: 70px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+.options span {
+    margin-bottom: 10px;
+}
+.options span:last-child {
+    margin-bottom: 0;
+}
+.pages  span {
+    font-size:13px;
+}
+
+.right > span {
+    font-size:13px;
+    padding:5px 22px;
+}
+
+.right > div {
+    padding:5px 15px;
+} */

@@ -1,0 +1,106 @@
+
+.vanue {
+    background-color: #2a005e;
+    background-image: url("https://assets.website-files.com/64056753a2b6532a05724699/641011304260e31510b06a31_event-bg-1.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:0 25px;
+    color:#fff;
+}
+.vanueSection {
+    width:90%;
+    margin:auto;
+    padding-top: 110px;
+    padding-bottom: 110px
+}
+
+.vanueContainer {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vanueTitleBlock {
+    text-align: center;
+}
+.vanueCatagory {
+        letter-spacing: .2em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.vanueTitleBlock h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Quicksand, sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.23;
+}
+.vanueTitleBlock p {
+    margin-bottom: 75px;
+}
+.vanueList {
+        grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+.vanueListItem {
+        background-color: #41007d;
+    border-radius: 40px;
+}
+.vanueImage {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+.vanueImageLink {
+    max-width: 100%;
+}
+.vanueImageLink img {
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.vanueContent {
+    text-align: center;
+    padding: 35px 45px 30px;
+}
+.vanueMeta {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    display: flex;
+    font-size: .8em;
+    font-weight: 700;
+    margin-bottom: 5px
+}
+.vanueCatagoryName {
+        color: #dcdcdc;
+    letter-spacing: .2em;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+
+.vanueTitle {
+        color: #dcdcdc;
+    padding-bottom: 15px;
+    font-family: Quicksand, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-decoration: none;
+    transition: color .3s;
+    display: block;
+}

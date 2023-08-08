@@ -1,0 +1,130 @@
+h2 {
+    margin-top: 0;
+margin-bottom: 10px;
+font-size: 44px;
+font-weight: 500;
+line-height: 1.23;
+}
+
+p {
+margin-bottom: 75px;
+letter-spacing: .05em;
+}
+.ticketCart {
+	background-color: #2a005e;
+    background-image: url("https://assets.website-files.com/64056753a2b6532a05724699/6410113284a06ee0a016b28a_ticket-bg-1.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+.ticketCartAxis {
+	padding-top: 110px;
+    padding-bottom: 110px;
+}
+.ticketCartContainer {
+	width: 100%;
+    max-width:960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ticketCartWrapper {
+	    grid-column-gap: 40px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+.ticketCartBlock {
+	background-color: #2a005e;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.ticketCartBlockHead {
+	    letter-spacing: .1em;
+    text-transform: uppercase;
+   	background-color: rgb(114, 0, 131);
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    margin-bottom: 0;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 18px;
+}
+.ticketPriceBlock {
+	margin-bottom: 5px;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.ticketBlockInfo {
+	    border-top-color: #4a4a4a;
+    border-bottom-color: #4a4a4a;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+}
+.ticketFeatureList {
+	    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    flex-direction: column;
+    display: flex;
+}
+.ticketFeatureListLink {
+	    color: #dcdcdc;
+    font-weight: 300;
+    line-height: 1;
+    text-decoration: none;
+    transition: color .3s;
+}
+.ticketPurchaseBlock {
+	padding-top: 35px;
+    padding-bottom: 35px;
+    transition: transform .3s;
+}
+.ticketPurchaseBlock:hover {
+	transform: translate(0, -3px);
+}
+.ticketPurchaseButton {
+	min-width: 170px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .025em;
+    white-space: nowrap;
+    background-color: rgb(114, 0, 131);
+    border-radius: 22.5px;
+    padding: 15px 26px 14px;
+    font-family: Quicksand, sans-serif;
+    font-weight: 500;
+    line-height: 1;
+    transition: all .3s;
+    cursor: pointer;
+    border: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+.ticketPurchaseBlock:hover .ticketPurchaseButton {
+	background-color: rgb(224, 8, 186);
+	box-shadow: 0 0 7px 2px rgba(114, 0, 131, .7);
+}
+.ticketCartBlock:hover .ticketCartBlockHead {
+    background-color: rgb(224, 8, 186);
+    box-shadow: 0 0 7px 2px rgba(114, 0, 131, .7);
+}
+.ticketCartBlock:hover .ticketPurchaseButton {
+	background-color: rgb(224, 8, 186);
+	box-shadow: 0 0 7px 2px rgba(114, 0, 131, .7);
+}
+
+.ticketTitleBlock {
+    text-align: center;
+}
+.ticketCatagory {
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 24px;
+}

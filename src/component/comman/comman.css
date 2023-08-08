@@ -1,0 +1,36 @@
+.topContainers {
+    background-color: #720083;
+    background-image: url("https://assets.website-files.com/64056753a2b6532a05724699/641011304260e31eebb06a2f_breadcrumb-bg-1.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+.containerDiv {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerDivWrapper {
+    min-height: 650px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.containerDivTitle {
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+.containerDivWrapper h1 {
+        margin-bottom: 15px;
+    font-weight: 700;
+    max-width: 550px;
+}
+.containerDivWrapper p {
+        margin-bottom: 0px;
+}
