@@ -27,9 +27,9 @@ const Product = () => {
                                         <a href="#" class="productImageLink">
                                         <img src={item.img} alt={item.name} />
                                         </a>
-                                        <div class="productAddToCart">
+                                        {/* <div class="productAddToCart">
                                         <button>Add to Cart</button>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div class="productItemContent">
                                         <a href="#" class="productContentLink">

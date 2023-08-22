@@ -222,6 +222,11 @@ const topContainer =[
         id:9,
         pageName:"CONTACT US",
         pageTitle:"CONTACT INFO"
+    },
+    {
+        id:10,
+        pageName:"PRODUCT DETAIL",
+        pageTitle:"product Name"
     }
 ]
 const ProductData = [
@@ -229,42 +234,42 @@ const ProductData = [
         id:1,
         name:"Coffee Mug",
         img:"https://assets.website-files.com/64095707e7c9a7edba65e6a3/643a309417fe0c133ba58ecf_coffee-mug.jpg",
-        price:"$ 7.00 USD"
+        price:7
     },{
         id:2,
         name:"Duffle Bag",
         img:"https://assets.website-files.com/64095707e7c9a7edba65e6a3/643a2e914eaafc7175a63412_duffle-bag.jpg",
-        price:"$ 25.00 USD"
+        price:25
     },{
         id:3,
         name:"Event Cap",
         img:"https://assets.website-files.com/64095707e7c9a7edba65e6a3/643a2e3d03d2930ae9a051bb_event-cap.jpg",
-        price:"$ 15.00 USD"
+        price:15
     },{
         id:4,
         name:"Hardcover Notebook",
         img:"https://assets.website-files.com/64095707e7c9a7edba65e6a3/643a309417fe0c133ba58ecf_coffee-mug.jpg",
-        price:"$ 7.00 USD"
+        price:7
     },{
         id:5,
         name:"Keychain",
         img:"https://assets.website-files.com/64095707e7c9a7edba65e6a3/6437c6f92c20babfb7cc62b1_keychain.jpg",
-        price:"$ 5.00 USD"
+        price:5
     },{
         id:6,
         name:"Music T-Shirt",
         img:"https://assets.website-files.com/64095707e7c9a7edba65e6a3/6437c3892465d3ff3897f2d3_music-t-shirt.jpg",
-        price:"$ 25.00 USD"
+        price:25
     },{
         id:7,
         name:"Shopping Bag",
         img:"https://assets.website-files.com/64095707e7c9a7edba65e6a3/6437abdc356666263d72b76d_shopping-bag.jpg",
-        price:"$ 8.00 USD"
+        price:8
     },{
         id:8,
         name:"Water Bottle",
         img:"https://assets.website-files.com/64095707e7c9a7edba65e6a3/64326e20a50b9c3b295d368a_water-bottle.jpg",
-        price:"$ 13.29 USD"
+        price:13
     }
 ]
 export {slideData, brandData,Images, eventData,eventSchdulData,eventDataButton,topContainer,ProductData}

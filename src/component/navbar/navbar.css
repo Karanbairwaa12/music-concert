@@ -36,6 +36,7 @@
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     position: relative;
+    margin-right:30px;
 }
 .dropdown-menu {
     list-style-type: none;
@@ -89,15 +90,22 @@
 .listItem a:hover {
     background:#ededed;
 }
-
-button {
-    font-size: 16px;
-    padding: 5px 23px;
+.SubmitBtn {
     color: #fff;
-    background: #8002d8;
-    border-radius: 72px;
-    border: none;
+    text-align: center;
+    letter-spacing: .08em;
+    background-color: #720083;
+    border-radius: 22.5px;
+    justify-content: center;
+    line-height: 1;
+    transition: box-shadow .3s;
+    font-size: 14px;
     margin-left: 30px;
+    border: 0;
+    padding: 10px 15px;
+}
+.SubmitBtn:hover {
+	box-shadow: 0 0 7px 2px rgba(114, 0, 131, .7);
 }
 a {
     text-decoration: none;

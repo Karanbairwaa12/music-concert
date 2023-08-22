@@ -1,5 +1,6 @@
 import React from 'react'
 import './Banner.css'
+import { Link } from 'react-router-dom'
 const Banner = () => {
   return (
     <section className="banner">
@@ -25,12 +26,12 @@ const Banner = () => {
     								easily through this site and confirm your ticket with a click pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself,
     							</p>
     							<div className="bannerButtons">
-    								<a href="/about" className="bannerBtnPrimary wBannerBtn">
+    								<Link to ='/about' className="bannerBtnPrimary wBannerBtn">
     									Learn More
-    								</a>
-    								<a href="/ticket" className="bannerBtnOutline wBannerBtn">
+    								</Link>
+    								<Link to="/ticket" className="bannerBtnOutline wBannerBtn">
     									Buy Ticket
-    								</a>
+    								</Link>
     							</div>
     						</div>
     					</div>

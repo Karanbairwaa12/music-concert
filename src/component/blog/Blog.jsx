@@ -48,14 +48,17 @@ const Blog = () => {
 					<div className="blogListWrapper">
 						<div className="blogList">
 							{
-                               blogData.map((item)=> {
+                               blogData.map((item,i)=> {
                                   return (
-                                    <Link 
-                                    key={item.id}
-                                    to={`/blogdetail/${item.id}`}
-                                    >
-                                        <BlogItem item={item}/>
-                                    </Link>
+                                    i<=2 && (
+                                        <Link 
+                                            key={item.id}
+                                            to={`/blogdetail/${item.id}`}
+                                        >
+                                            <BlogItem item={item}/>
+                                        </Link>
+                                    )
+                                    
                                    
                                    )
                                }) 

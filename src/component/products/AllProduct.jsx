@@ -5,6 +5,7 @@ import Footer from '../footer/Footer'
 import Event from '../events/Event'
 import Comman from '../comman/Comman'
 import Navbar from '../navbar/Navbar'
+import { Link } from 'react-router-dom'
 const AllProduct = ({item}) => {
   return (
    <>
@@ -27,30 +28,36 @@ const AllProduct = ({item}) => {
 				<div class="productWrapper">
                     <div class="productListWrapper">
                         <div class="productList">
+                           
                             {ProductData.map((item, i) =>
                               (
-                                <div class="productListItem" key={item.id}>
-                                    <div class="productItem">
-                                    <div class="productItemImage">
-                                        <a href="#" class="productImageLink">
-                                        <img src={item.img} alt={item.name} />
-                                        </a>
-                                        <div class="productAddToCart">
-                                        <button>Add to Cart</button>
+                                <Link to={`/product/${item.id}`}>
+                                
+                                    <div class="productListItem" key={item.id}>
+                                        <div class="productItem">
+                                        <div class="productItemImage">
+                                            <a href="#" class="productImageLink">
+                                            <img src={item.img} alt={item.name} />
+                                            </a>
+                                            {/* <div class="productAddToCart">
+                                                <Link to="/product">
+                                                    <button>Add to Cart</button>
+                                                </Link>
+                                            
+                                            </div> */}
+                                        </div>
+                                        <div class="productItemContent">
+                                            <a href="#" class="productContentLink">
+                                            {item.name}
+                                            </a>
+                                            <div class="productPriceBlock">
+                                            <div>Price</div>
+                                            <div>{item.price}</div>
+                                            </div>
+                                        </div>
                                         </div>
                                     </div>
-                                    <div class="productItemContent">
-                                        <a href="#" class="productContentLink">
-                                        {item.name}
-                                        </a>
-                                        <div class="productPriceBlock">
-                                        <div>Price</div>
-                                        <div>{item.price}</div>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                            
+                                </Link>
                                 )
                             )}
                         </div>

@@ -33,10 +33,7 @@ const AboutBanner = ({img}) => {
     								easily through this site and confirm your ticket with a click pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself,
     							</p>
     							<div className="bannerButtons">
-    								<a href="" className="bannerBtnPrimary wBannerBtn">
-    									Learn More
-    								</a>
-    								<a href="" className="bannerBtnOutline wBannerBtn">
+    								<a href="#" className="bannerBtnOutline wBannerBtn">
     									Buy Ticket
     								</a>
     							</div>

@@ -32,7 +32,7 @@ const Schedul = () => {
                         {
                             eventDataButton.map((item,i)=> {
                                 return(
-                                    <a href="/" key={i} className="SchedulTabsLink" onClick ={(event)=> handlleButtonClick(i,event)}>
+                                    <a href="/" key={i} className={`SchedulTabsLink ${click === i ? 'active':''}`} onClick ={(event)=> handlleButtonClick(i,event)}>
                                         <div className="SchedulTabsText">
                                             {item.name}
                                         </div>

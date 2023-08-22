@@ -1,0 +1,206 @@
+.feedbackWrapper {
+	padding-top: 65px;
+}
+.feedbackHeading {
+	    margin-bottom: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.feedUserWrapper {
+	grid-column-gap: 80px;
+    grid-row-gap: 80px;
+    flex-direction: column;
+    display: flex;
+}
+.feedUserBlock {
+	    grid-column-gap: 30px;
+    grid-row-gap: 80px;
+    align-items: flex-start;
+    display: flex;
+}
+.feedUserBlockImage {
+	width: 100%;
+    max-width: 64px;
+}
+.feedUserMeta {
+	grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+    display: flex;
+}
+.feedUserName {
+	    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.feedUserCommentDate {
+	font-size: 14px;
+}
+.userFeedback {
+	max-width: 705px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.feedUserInteraction {
+	    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    align-items: center;
+    display: flex;
+}
+.feedUserInteraction a {
+	    color: #dcdcdc;
+    letter-spacing: .1em;
+    font-size: 13px;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color .3s;
+}
+.metaSeparator {
+	width: 5px;
+    height: 1px;
+    background-color: #dcdcdc;
+}
+
+.productDetail {
+    background-color: #2a005e;
+    background-image: url("https://assets.website-files.com/64056753a2b6532a05724699/64101131294ba018e0b58c28_product-bg-1.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+.productDetailAxis {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.productDetailContainer {
+    width: 100%;
+    max-width:1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.productDetailWrapper {
+         grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-rows: auto;
+    grid-template-columns: 2.25fr 260px;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+.productDetailBlock {
+        grid-column-gap: 55px;
+    grid-row-gap: 55px;
+    flex-direction: column;
+    display: flex;
+}
+.productItemDetail {
+        grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    display: flex;
+}
+.productDetailImage {
+    min-width:460px;
+}
+.productDetailImageLink {
+    max-width: 100%;
+     
+}
+.productDetailImageLink img {
+    width:100%;
+    display: block;
+}
+.productDetailContent {
+        width: 100%;
+    max-width: 390px;
+}
+
+.productDetailContent p {
+    margin-bottom: 20px;
+}
+.productDetailDevider {
+        border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.productDetailPrice {
+        grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    justify-content: flex-start;
+    display: flex;
+}
+.productDetailInfo {
+    padding-top: 15px;
+}
+
+.productDetailForm {
+        margin-top:15px;
+        display: block;
+}
+.productDetailForm h4 {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+}
+
+/* input {
+        height: 38px;
+    width: 60px;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    border: 1px solid #ddd;
+    background-color: #41007d;
+    border-color: #41007d;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 8px 6px 8px 12px;
+    line-height: 20px;
+    display: block;
+    color: #fff;
+} */
+
+.ammountContainer {
+    display:flex;
+    align-items:center;
+    font-weight:700;
+}
+.ammount {
+    width:30px;
+    height:30px;
+    border-radius:10px;
+    border:1px solid teal;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0px 5px;
+}
+.productDetailAddToCart {
+        grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    display: flex;
+    padding-top: 10px;
+}
+
+.productDetailBtn {
+    min-width: 170px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .025em;
+    background-color: #720083;
+    border-radius: 0;
+    justify-content: center;
+    padding: 15px 26px 14px;
+    line-height: 1;
+    transition: box-shadow .3s;
+    cursor: pointer;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+    margin:0;
+}
+.productDetailBtn:hover {
+    box-shadow: 0 0 7px 2px rgba(114, 0, 131, .7);
+}

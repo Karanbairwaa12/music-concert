@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 const EventsItem = ({item}) => {
   return (
     <div class="eventListItem">
@@ -15,12 +16,12 @@ const EventsItem = ({item}) => {
                 <div class="concertBlock">
                     <span>Venu: New School Tishman Auditorium 63 5th Ave, New York, NY 10003, United States</span>
                 </div>
-                <a href="#" class="eventContentReadMore">
+                <Link to="/eventschedul" class="eventContentReadMore">
                     <div class="readMore">Get Ticket</div>
                     <div class="readMoreIcon">
                         <img src="https://assets.website-files.com/64056753a2b6532a05724699/640ff4594260e391a8ae8f1b_arrow-right.png"/>
                     </div>
-                </a>
+                </Link>
             </div>
             <a href="#" class="eventImage">
                 <img src={item.img}/>

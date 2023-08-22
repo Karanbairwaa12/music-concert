@@ -44,6 +44,10 @@
     background-color: #d3ebf4;
     transition: background-color color .3s;
 }
+.active {
+    background-color: #720083;
+    color:#d3ebf4;
+}
 .SchedulTabsLink:hover {
 	color:#fff;
 	background-color: #720083;
